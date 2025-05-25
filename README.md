@@ -19,7 +19,7 @@
 - Distintos ataques por cada pokemon.
 - Tiempo de espera entre ataques.
 - El contrincante elige de forma aleatoria el ataque.
-- Barras de vidas.
+- Barras de vida.
 - Tipos de pokemones (NINGUNO, NORMAL, ORIGINAL, COPIA).
 - Fondo de Batalla.
 
