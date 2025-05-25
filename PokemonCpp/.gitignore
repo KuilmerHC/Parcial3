@@ -1,0 +1,62 @@
+# Archivos y carpetas generados por la compilación de C++
+########################################################
+# Carpeta de compilación (donde va el ejecutable y los .o)
+build/
+# Archivos objeto
+*.o
+*.obj
+*.lo
+*.slo
+# Bibliotecas precompiladas (si las tuvieras localmente y no forman parte del repo)
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+# Ejecutables (si no están en la carpeta build/)
+*.exe
+*.out
+*.app
+mi_juego_pokemon # Si el ejecutable tiene un nombre específico y no está en build/
+
+# Archivos de configuración específicos de VS Code
+#################################################
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/c_cpp_properties.json 
+                                
+# Archivos de sistema operativo
+#############################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Thumbnails
+Thumbs.db
+ehthumbs.db
+# Carpetas generadas por algunos editores o herramientas
+.history/
+.ionide/
+.idea/ # Para CLion y otros IDEs de JetBrains
+
+# Archivos de respaldo de algunos editores
+##########################################
+*~
+*.swp
+*.swo
+
+# Archivos de depuración específicos
+##################################
+*.dSYM/
+
+# Registros (logs)
+#############
+*.log
+
+# Otros archivos específicos del proyecto que no quieras versionar
+###############################################################
+# Por ejemplo, si tienes archivos de configuración locales muy grandes
+# local_config.ini

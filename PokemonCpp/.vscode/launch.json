@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Pokemon Project (g++)", // Puedes cambiar este nombre descriptivo
+            "type": "cppdbg",                     // Tipo de depurador para C++
+            "request": "launch",                  // Queremos "lanzar" (ejecutar) el programa
+            "program": "${workspaceFolder}/build/mi_juego_pokemon", // Ruta a TU EJECUTABLE
+            "args": [],                           // Argumentos para tu programa (si los necesita)
+            "stopAtEntry": false,                 // No detenerse al inicio de main() automáticamente
+            "cwd": "${workspaceFolder}",          // Directorio de trabajo actual (raíz del proyecto)
+            "environment": [],                    // Variables de entorno adicionales
+            "externalConsole": false,             // Usar la terminal integrada de VS Code
+            "MIMode": "gdb",                      // Modo de depuración (GDB para Linux con g++)
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            // Asegúrate de que el nombre de esta tarea coincida con el 'label' en tasks.json
+            "preLaunchTask": "Build Pokemon Project (g++)"
+        }
+    ]
+}

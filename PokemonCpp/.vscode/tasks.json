@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Pokemon Project (g++)", // ESTE LABEL DEBE COINCIDIR
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-I${workspaceFolder}/include",
+                "${workspaceFolder}/src/main.cpp",
+                "${workspaceFolder}/src/Ataque.cpp",
+                "${workspaceFolder}/src/Pokemon.cpp",
+                "-o",
+                "${workspaceFolder}/build/mi_juego_pokemon",
+                "-lsfml-graphics",
+                "-lsfml-window",
+                "-lsfml-system",
+                "-Wall", "-Wextra", "-std=c++17", "-g"
+            ],
+            "group": {"kind": "build", "isDefault": true},
+            "problemMatcher": ["$gcc"],
+            "presentation": {"echo": true, "reveal": "always", "focus": false, "panel": "shared", "showReuseMessage": true, "clear": false, "close": false}
+        }
+    ]
+}
