@@ -1,2 +1,5 @@
-# Parcial3
-Desarrollo Proyecto de C++ y Python Corte 3
+# Parcial 3
+### Integrantes: Kuilmer Santiago Hernández Cruz & Juan Jośe Berrio Español.
+---
+## IDEAS INNOVADORAS
+
