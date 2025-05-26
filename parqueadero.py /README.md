@@ -151,7 +151,7 @@ Si aparece algún error de módulo faltante:
 ```bash
 pip install nombre_del_modulo
 ```
-### 2. Error: "Tkinter no disponible"
+### 2. Error: "Tkinter no disponible"
 En sistemas Linux instala:
 
 ```bash
