@@ -1,5 +1,5 @@
 
-# Batalla tipo Pokemon
+# Batalla Pokemon
 
 El proyecto se basa un juego dos personajes (usuario y juagador predefinido) con distintos ataques, el ganador es el que logre derrotar al otro.
 
