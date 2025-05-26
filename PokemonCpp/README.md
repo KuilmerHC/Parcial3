@@ -55,6 +55,7 @@ mkdir -p build && g++ -Iinclude src/main.cpp src/Pokemon.cpp src/Ataque.cpp -o b
 
 Cada Pokémon cuenta con un conjunto único de ataques disponibles, lo que proporciona mayor dinamismo y variabilidad al combate. Esta implementación garantiza que cada encuentro presente opciones estratégicas distintas y evita la monotonía en los resultados de las batallas.
 
+---
 ### 2. Temporización Entre Turnos de Ataque
 
 Se estableció un sistema de espera controlada entre ataques para permitir el procesamiento adecuado de cada turno. Esta funcionalidad facilita la comprensión visual del ataque utilizado y el daño infligido, mejorando la experiencia del usuario durante el combate.
@@ -68,7 +69,7 @@ Se estableció un sistema de espera controlada entre ataques para permitir el pr
 ```
 
 Estas librerías permitieron crear pausas controladas entre turnos y gestionar los tiempos de animación de manera precisa.
-
+---
 ### 3. Selección Aleatoria de Ataques del Oponente
 
 El sistema implementa una mecánica de selección automática y aleatoria de ataques para el contrincante.
@@ -81,7 +82,7 @@ El sistema implementa una mecánica de selección automática y aleatoria de ata
 ```
 
 La cual tiene herramientas modernas para la generación de números pseudoaleatorios, garantizando una selección equitativa y eficiente de los ataques del oponente.
-
+---
 ### 4. Sistema Visual de Barras de Vida
 
 Se desarrollaron indicadores visuales que representan la salud actual de cada Pokémon mediante barras de vida:
@@ -90,7 +91,7 @@ Se desarrollaron indicadores visuales que representan la salud actual de cada Po
 - **Rojo**: Vida crítica
 
 Esta implementación facilita la interpretación inmediata del estado de salud de ambos combatientes.
-
+---
 ### 5. Clasificación de Tipos de Pokémon
 
 El sistema establece cuatro categorías principales de Pokémon basadas en el contexto del jugador:
@@ -100,12 +101,12 @@ El sistema establece cuatro categorías principales de Pokémon basadas en el co
 - **COPIA**: Pokémon duplicado o secundario
 
 Esta tipificación permite una mejor organización y gestión de los elementos de juego.
-
+---
 ### 6. Ambientación Visual del Campo de Batalla
 
 Se incorporó un fondo temático específico para las batallas, apropiado para los enfrentamientos.
 
-
+---
 ## Referencias
 **Imágenes:** Todas las imagenes usadas en el juego fueron creadas con inteligencia artificial (ChatGPT)
 
