@@ -104,3 +104,8 @@ Esta tipificación permite una mejor organización y gestión de los elementos d
 ### 6. Ambientación Visual del Campo de Batalla
 
 Se incorporó un fondo temático específico para las batallas, apropiado para los enfrentamientos.
+
+
+## Referencias
+**Imágenes:** Todas las imagenes usadas en el juego fueron creadas con inteligencia artificial (ChatGPT)
+
