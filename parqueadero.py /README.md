@@ -115,7 +115,48 @@ Razón:
 
 - **ImageFont**: Para renderizar texto en imágenes (usado en el logo).
 
+---
 
+# COMPILAR EL CODIGO
 
+## Requisitos
+
+- Python 3.10 o superior
+- Pip (gestor de paquetes de Python)
+- Librerías especificadas en requirements.txt
+----
+## Instalación de dependencias
+
+1. Abre una terminal/consola
+2. Navega hasta el directorio del proyecto
+3. Ejecuta:
+
+```bash
+pip install -r requirements.txt
+```
+## Para ejecutar el código
+### En Windows:
+```cmd
+python main.py
+```
+## En Linux/MacOS:
+```bash
+python3 main.py
+```
+## Solución de problemas comunes
+
+### 1. Error: "Módulo no encontrado"
+Si aparece algún error de módulo faltante:
+
+```bash
+pip install nombre_del_modulo
+```
+### 2. Error: "Tkinter no disponible"
+En sistemas Linux instala:
+
+```bash
+sudo apt-get install python3-tk
+```
 ## Referencias
-**Imágenes:** Todas las imagenes usadas en el juego fueron creadas con inteligencia artificial (ChatGPT)
+**interfaz gráfica**: deepseek y gemini ayudaron en la correccion y ejecucion del código en la interfaz gráfica
+**Código**: herramientas como el siguiente video de youtube: https://youtu.be/iPSUge13jko?si=JvlDCZlPQUaxsQC8 y ayuda de deepseek para comprender la lógica del mismo
