@@ -5,7 +5,7 @@
 ## Documentación
 
 Para el proyecto se usaron las librerias 
-```
+```python
 import sys
 import subprocess
 import tkinter as tk
@@ -21,7 +21,7 @@ Propósito: Proporciona acceso a variables y funciones específicas del sistema.
 
 Uso en el código:
 
-``` 
+``` python
 import sys
 subprocess.check_call([sys.executable, "-m", "pip", "install", "pillow"])
 ```
@@ -31,7 +31,7 @@ subprocess.check_call([sys.executable, "-m", "pip", "install", "pillow"])
 Propósito: Permite la creación de nuevos procesos, conexión a sus canales de entrada/salida/error y obtención de sus códigos de retorno.
 
 Uso en el código:
-```
+```python
 import subprocess
 subprocess.check_call([sys.executable, "-m", "pip", "install", "pillow"])
 ```
@@ -42,7 +42,7 @@ Se utiliza para instalar automáticamente la librería Pillow si no está presen
 Propósito: Crear la interfaz gráfica de usuario (GUI).
 
 Uso en el código:
-```
+```python
 import tkinter as tk
 from tkinter import messagebox, ttk
 ```
@@ -60,7 +60,7 @@ Propósito: Manipulación de fechas y horas.
 
 Uso en el código:
 
-```
+```python
 import datetime
 datetime.datetime.now() # Para obtener la hora actual
 ```
@@ -76,7 +76,7 @@ Razón:
 Propósito: Operaciones matemáticas.
 
 Uso en el código:
-```
+```python
 import math
 math.ceil(hours * 2) / 2 # Redondeo a media hora
 ```
@@ -87,7 +87,7 @@ Razón: Para redondear el tiempo estacionado a medias horas (0.5) en el cálculo
 Propósito: Proporciona funciones hash seguras.
 
 Uso en el código:
-```
+```python
 import hashlib
 hashlib.sha1(plate.encode()).hexdigest() # Generar hash de la placa
 ```
@@ -101,7 +101,7 @@ Razón:
 Propósito: Procesamiento de imágenes.
 
 Uso en el código:
-```
+```python
 from PIL import Image, ImageTk, ImageDraw, ImageFont
 ```
 
