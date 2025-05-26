@@ -158,5 +158,6 @@ En sistemas Linux instala:
 sudo apt-get install python3-tk
 ```
 ## Referencias
-**interfaz gráfica**: deepseek y gemini ayudaron en la correccion y ejecucion del código en la interfaz gráfica
-**Código**: herramientas como el siguiente video de youtube: https://youtu.be/iPSUge13jko?si=JvlDCZlPQUaxsQC8 y ayuda de deepseek para comprender la lógica del mismo
+- **interfaz gráfica**: deepseek y gemini ayudaron en la correccion y ejecucion del código en la interfaz gráfica.
+
+- **Código**: herramientas como el siguiente video de youtube: https://youtu.be/iPSUge13jko?si=JvlDCZlPQUaxsQC8 y ayuda de deepseek para comprender la lógica del mismo
