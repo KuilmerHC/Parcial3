@@ -1,12 +1,11 @@
-
 # PARQUEADERO EN PYTHON
 
-### El proyecto está basado en un sistema de parqueadero, común y corriente, con todas sus funciones y siendo capaz de representar que tipo de vehiculo se estaciona en cada espacio dentro de su parqueadero (moto o carro)
+### El proyecto esta basado en un sistema de parqueadero, comun y corriente, con todas sus funciones y siendo capaz de representar que tipo de vehiculo se estaciona en cada espacio dentro de su parqueadero (moto o carro)
 
 ## Documentación
 
 Para el proyecto se usaron las librerias 
-``` pyhon
+
 import sys
 import subprocess
 import tkinter as tk
@@ -15,7 +14,6 @@ import datetime
 import math
 import hashlib 
 de Python
-```
 1. sys
 Propósito: Proporciona acceso a variables y funciones específicas del sistema.
 
