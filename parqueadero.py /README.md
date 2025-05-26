@@ -95,7 +95,7 @@ Razón:
 
 - Generar un valor hash único a partir de la placa del vehículo.
 
-- Se usa para asignar consistentemente una imagen/color a cada vehículo basado en su placa.
+- Se usa para asignar consistentemente una imagen o color a cada vehículo basado en su placa.
 ---
 ## 7. PIL (Pillow)
 Propósito: Procesamiento de imágenes.
