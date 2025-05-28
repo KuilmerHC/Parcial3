@@ -121,9 +121,9 @@ Razón:
 
 ## Requisitos
 
-- Python 3.10 o superior
-- Pip (gestor de paquetes de Python)
-- Librerías especificadas en requirements.txt
+- Python 3.10 o superior.
+- Pip (gestor de paquetes de Python).
+- Librerías especificadas en el código.
 ----
 ## Instalación de dependencias
 
@@ -131,17 +131,14 @@ Razón:
 2. Navega hasta el directorio del proyecto
 3. Ejecuta:
 
-```bash
-pip install -r requirements.txt
-```
 ## Para ejecutar el código
 ### En Windows:
 ```cmd
-python main.py
+python code_parqueadero.py
 ```
 ## En Linux/MacOS:
 ```bash
-python3 main.py
+python3 code_parqueadero.py
 ```
 ## Solución de problemas comunes
 
