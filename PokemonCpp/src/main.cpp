@@ -10,22 +10,23 @@
 int main () {
 
     // ----------------------------------- Definir ataques ---------------------------------------------
-    Ataque mordisco("FrisMordisco",5);
+    Ataque mordisco("FrisMordisco",7);
     Ataque exclusivo("Nadie, como Frisby lo Hace", 8);
     Ataque pollo("FrisTerapia", 10);
 
     Ataque picotazo("Frispicotazo", 6);
     Ataque fiebre("Fiebre de frisby", 5);
-    Ataque patada("Frispatada", 11)
+    Ataque patada("Frispatada", 13)
 
     Pokemon jugador ("Frisby Colombiano", Tipo::ORIGINAL, 1, 45, 20, 49);
-    jugador.aprenderAtaque(picotazo);
     jugador.aprenderAtaque(mordisco);
     jugador.aprenderAtaque(exclusivo);
+    jugador.aprenderAtaque(pollo);
 
     Pokemon oponente ("Frisby Copia", Tipo::COPIA, 1, 39, 20, 42);
     oponente.aprenderAtaque(picotazo);
     oponente.aprenderAtaque(fiebre);
+    oponente.aprenderAtaque(patada);
 
     // -------------------------------------- Consola -----------------------------------------------------
     // jugador
