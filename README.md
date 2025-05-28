@@ -24,10 +24,9 @@
 - Fondo de Batalla.
 
 ### Parqueado Python
--
--
--
--
--
+- El usuario escogerá el tipo de vehículo que ingresa al parqueadero (moto o carro).
+- Las tarifas entre motos y carros son distintas.
+- Hora y fecha en la que el vehiculo ingresó y salió.
+- Al momento de generar el pago, muestra en que espacio estaba guardado su vehículo.
 
 
