@@ -23,7 +23,7 @@ int main () {
     jugador.aprenderAtaque(exclusivo);
     jugador.aprenderAtaque(pollo);
 
-    Pokemon oponente ("Frisby Copia", Tipo::COPIA, 1, 39, 20, 42);
+    Pokemon oponente ("Frisby Copia", Tipo::COPIA, 1, 45, 20, 42);
     oponente.aprenderAtaque(picotazo);
     oponente.aprenderAtaque(fiebre);
     oponente.aprenderAtaque(patada);
