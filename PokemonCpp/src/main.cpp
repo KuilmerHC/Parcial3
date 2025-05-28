@@ -43,7 +43,7 @@ int main () {
 
 
     // ------------------------------- SFML Y VENTANA DE JUEGO --------------------------------------------
-    sf::RenderWindow window(sf::VideoMode(800, 600), "Pokemon Game");
+    sf::RenderWindow window(sf::VideoMode(800, 600), "Frisby Game");
     window.setFramerateLimit(60); // fps
 
     sf::Font font;
@@ -79,7 +79,7 @@ int main () {
     EstadoTurno turnoActual = EstadoTurno::JUGADOR_ELIGE_ATAQUE;
 
     sf::Clock delayClock; // mide tiempo
-    sf::Time delayDuration = sf::milliseconds(2000); // cuanto tiempo
+    sf::Time delayDuration = sf::milliseconds(2500); // cuanto tiempo
     bool esperandoFinDeAccion = false; // saber si es una pausa
     EstadoTurno proximoTurnoLuegoDelay = EstadoTurno::JUGADOR_ELIGE_ATAQUE; //flujo despues de la pausa
 
@@ -309,7 +309,7 @@ int main () {
             } 
             // Combate terminado
             if (turnoActual == EstadoTurno::COMBATE_TERMINADO) {
-                // Pendiente final del juego
+            
             }
         }
 
