@@ -16,7 +16,7 @@ int main () {
 
     Ataque picotazo("Frispicotazo", 6);
     Ataque fiebre("Fiebre de frisby", 5);
-    Ataque patada("Frispatada", 13);
+    Ataque patada("Frispatada", 15);
 
     Pokemon jugador ("Frisby Colombiano", Tipo::ORIGINAL, 1, 45, 20, 49);
     jugador.aprenderAtaque(mordisco);
